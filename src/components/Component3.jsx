@@ -26,9 +26,9 @@ const Component3 = () => {
         <div>
           <button
             className="email-btn  rounded-xl font-regular py-2 px-2 text-[1.2rem] xl:text-[3rem] lg:text-[2rem] md:text-[1.5rem] sm:text-[1.2rem]"
-            onClick={() => copyToClipBoard("SAMPLE TEXT")}
+            onClick={() => copyToClipBoard("mihajlo.zlt@gmail.com")}
           >
-            zlaticanin.mih@gmail.com
+            mihajlo.zlt@gmail.com
           </button>
           <div className="ml-2 mb-8 text-[14px] sm:text-[15px] md:text-[16px]">
             {copySuccess ? copySuccess : "Click Email To Copy"}
