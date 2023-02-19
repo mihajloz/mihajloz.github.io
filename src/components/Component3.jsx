@@ -35,10 +35,16 @@ const Component3 = () => {
           </div>
         </div>
         <hr></hr>
-        <button className="mt-8 mb-10 flex justify-center items-center px-6 py-3 rounded-full bg-white/90 text-black hover:text-white hover:bg-zinc-600 duration-200 ease-in-out">
-          <HiDocumentText className="text-[30px]" />
-          <div className="font-medium ml-2">Resume</div>
-        </button>
+        <a
+          href="./src/assets/mihajlo_cv.pdf"
+          target="_blank"
+          className="w-full"
+        >
+          <button className="mt-8 mb-10 flex w-full justify-center items-center px-6 py-3 rounded-full bg-white/90 text-black hover:text-white hover:bg-zinc-600 duration-200 ease-in-out">
+            <HiDocumentText className="text-[30px]" />
+            <div className="font-medium ml-2">Resume</div>
+          </button>
+        </a>
         <hr></hr>
         <div className="flex gap-2 mt-8">
           <a
