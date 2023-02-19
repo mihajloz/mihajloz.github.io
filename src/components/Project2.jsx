@@ -4,22 +4,22 @@ import {
   SiReact,
   SiChakraui,
 } from "react-icons/si";
-import kan from "../vid/kan.webm";
+import kanban from "../images/kanban.png";
 
 const Project2 = () => {
   return (
     <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[250px] hover:bg-zinc-600 duration-200 ease-in-out">
-      {/* <img
-              src={discord}
-              className="flex h-full object-cover w-full rounded-t-lg"
-            /> */}
-      <video
+      <img
+        src={kanban}
+        className="select-none flex h-full object-cover w-full rounded-t-3xl"
+      />
+      {/* <video
         src={kan}
         autoPlay
         loop
         muted
         className="select-none flex h-full object-cover w-full rounded-t-3xl"
-      />
+      /> */}
       <div className="flex flex-col px-6 pb-6 pt-3 justify-between h-full">
         <div>
           <h2 className="text-[23px] font-semibold">KANBAN BOARD / TRELLO</h2>

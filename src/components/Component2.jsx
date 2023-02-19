@@ -105,7 +105,7 @@ const Component2 = () => {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 gap-4 h-full px-[60px] min-w-[600px] mb-[100px] select-none overflow-y-scroll">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-4 h-full px-[60px] min-w-[600px] mb-[100px] select-none overflow-y-scroll">
         <Project1 />
         <Project2 />
         <Project3 />
