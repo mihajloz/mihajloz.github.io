@@ -8,7 +8,7 @@ import kanban from "../images/kanban.png";
 
 const Project2 = () => {
   return (
-    <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[250px] hover:bg-zinc-600 duration-200 ease-in-out">
+    <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[200px] hover:bg-zinc-600 duration-200 ease-in-out">
       <img
         src={kanban}
         className="select-none flex h-full object-cover w-full rounded-t-3xl"
