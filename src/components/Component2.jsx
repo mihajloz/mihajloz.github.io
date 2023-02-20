@@ -60,11 +60,11 @@ const icons = [
     title: "Jest",
     color: "#c21325",
   },
-  {
-    icon: <SiNodedotjs />,
-    title: "NodeJS",
-    color: "#3c873a",
-  },
+  // {
+  //   icon: <SiNodedotjs />,
+  //   title: "NodeJS",
+  //   color: "#3c873a",
+  // },
   {
     icon: <SiMongodb />,
     title: "MongoDB",
