@@ -38,6 +38,7 @@ const Component3 = () => {
         <a
           href="https://drive.google.com/file/d/1zAkrfRNAanlyl2UkYcMqfPKhxisQF_fO/view"
           className="w-full"
+          target="_blank"
         >
           <button className="mt-8 mb-10 flex w-full justify-center items-center px-6 py-3 rounded-full bg-white/90 text-black hover:text-white hover:bg-zinc-600 duration-200 ease-in-out">
             <HiDocumentText className="text-[30px]" />
