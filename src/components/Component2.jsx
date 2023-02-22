@@ -65,11 +65,11 @@ const icons = [
   //   title: "NodeJS",
   //   color: "#3c873a",
   // },
-  {
-    icon: <SiMongodb />,
-    title: "MongoDB",
-    color: "#3fa037",
-  },
+  // {
+  //   icon: <SiMongodb />,
+  //   title: "MongoDB",
+  //   color: "#3fa037",
+  // },
 
   {
     icon: <SiHtml5 />,
