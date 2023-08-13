@@ -2,6 +2,7 @@ import {
   SiJavascript,
   SiTypescript,
   SiReact,
+  SiExpo,
   SiRedux,
   SiAngular,
   SiNodedotjs,
@@ -21,10 +22,10 @@ import {
 import { TbApi } from "react-icons/tb";
 import { HiDocumentText } from "react-icons/hi";
 import AboutIcon from "./AboutIcon";
-import { MdExpandMore } from "react-icons/md";
-import { scrollTo } from "../util/scrollTo";
+// import { MdExpandMore } from "react-icons/md";
+// import { scrollTo } from "../util/scrollTo";
 
-const icons = [
+const frontendIcons = [
   {
     icon: <SiJavascript />,
     title: "Javascript",
@@ -41,11 +42,6 @@ const icons = [
     color: "#61dbfb",
   },
   {
-    icon: <SiReact />,
-    title: "React Native",
-    color: "#61dbfb",
-  },
-  {
     icon: <SiRedux />,
     title: "Redux",
     color: "#764abc",
@@ -54,41 +50,6 @@ const icons = [
     icon: <SiAngular />,
     title: "Angular",
     color: "#a6120d",
-  },
-  {
-    icon: <SiNodedotjs />,
-    title: "Node.js",
-    color: "#3c873a",
-  },
-  {
-    icon: <SiExpress />,
-    title: "Express",
-    color: "#fffff",
-  },
-  {
-    icon: <TbApi />,
-    title: "REST APIs",
-    color: "#ffffff",
-  },
-  {
-    icon: <SiAwslambda />,
-    title: "AWS Lambda",
-    color: "#f37b05",
-  },
-  {
-    icon: <SiMongodb />,
-    title: "MongoDB",
-    color: "#3fa037",
-  },
-  {
-    icon: <SiJest />,
-    title: "Jest",
-    color: "#c21325",
-  },
-  {
-    icon: <SiPuppeteer />,
-    title: "Puppeteer",
-    color: "#01d19d",
   },
   {
     icon: <SiTailwindcss />,
@@ -125,6 +86,60 @@ const icons = [
     title: "CSS",
     color: "#cd6799",
   },
+];
+
+const backendIcons = [
+  {
+    icon: <SiNodedotjs />,
+    title: "Node.js",
+    color: "#3c873a",
+  },
+  {
+    icon: <SiExpress />,
+    title: "Express",
+    color: "#fffff",
+  },
+  {
+    icon: <SiMongodb />,
+    title: "MongoDB",
+    color: "#3fa037",
+  },
+  {
+    icon: <SiAwslambda />,
+    title: "AWS Lambda",
+    color: "#f37b05",
+  },
+  {
+    icon: <TbApi />,
+    title: "REST APIs",
+    color: "#ffffff",
+  },
+];
+
+const mobileIcons = [
+  {
+    icon: <SiReact />,
+    title: "React Native",
+    color: "#61dbfb",
+  },
+  {
+    icon: <SiExpo />,
+    title: "Expo",
+    color: "#ffffff",
+  },
+];
+
+const otherIcons = [
+  {
+    icon: <SiJest />,
+    title: "Jest",
+    color: "#c21325",
+  },
+  {
+    icon: <SiPuppeteer />,
+    title: "Puppeteer",
+    color: "#01d19d",
+  },
   {
     icon: <HiDocumentText />,
     title: "JSDoc",
@@ -139,16 +154,76 @@ const icons = [
 
 const Skills = () => {
   return (
-    <div
-      id="skills"
-      className="relative snap-start bg-zinc-800 w-screen h-screen flex flex-col items-center"
-    >
+    <div id="skills" className="bg-zinc-800 w-full flex flex-col items-center">
       <div className="mt-20">
-        <div className="font-medium select-none text-white tracking-wide text-[4rem] xl:text-[7rem] lg:text-[6rem] md:text-[5rem] sm:text-[4rem] flex justify-center">
+        <div className="flex justify-center font-medium text-white tracking-wide mb-10 text-[3rem] xl:text-[4rem] lg:text-[5rem] md:text-[4rem] sm:text-[3rem] underline underline-offset-8 decoration-8 decoration-yellow-300">
           SKILLS
         </div>
 
-        <div className="flex flex-wrap max-w-[700px] justify-center gap-2">
+        <div className="flex flex-col gap-2 items-start">
+          <div className="flex flex-col md:flex-row max-w-[800px] relative p-5">
+            <h1 className="font-semibold text-white tracking-wide text-[1.5rem] w-[120px] rotate-element mb-5 underline underline-offset-8 decoration-8 decoration-yellow-300">
+              Frontend
+            </h1>
+            <div className="flex flex-wrap gap-2 md:ml-2">
+              {frontendIcons.map((iconAbout, index) => (
+                <AboutIcon
+                  key={index}
+                  icon={iconAbout.icon}
+                  title={iconAbout.title}
+                  color={iconAbout.color}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row max-w-[800px] relative p-5">
+            <h1 className="font-semibold text-white tracking-wide text-[1.5rem] w-[120px] rotate-element mb-5 underline underline-offset-8 decoration-8 decoration-yellow-300">
+              Backend
+            </h1>
+            <div className="flex flex-wrap gap-2">
+              {backendIcons.map((iconAbout, index) => (
+                <AboutIcon
+                  key={index}
+                  icon={iconAbout.icon}
+                  title={iconAbout.title}
+                  color={iconAbout.color}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row max-w-[800px] relative p-5">
+            <h1 className="font-semibold text-white tracking-wide text-[1.5rem] w-[120px] rotate-element mb-5 underline underline-offset-8 decoration-8 decoration-yellow-300">
+              Mobile
+            </h1>
+            <div className="flex flex-wrap gap-2">
+              {mobileIcons.map((iconAbout, index) => (
+                <AboutIcon
+                  key={index}
+                  icon={iconAbout.icon}
+                  title={iconAbout.title}
+                  color={iconAbout.color}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row max-w-[800px] relative p-5">
+            <h1 className="font-semibold text-white tracking-wide text-[1.5rem] w-[120px] rotate-element mb-5 underline underline-offset-8 decoration-8 decoration-yellow-300">
+              Other
+            </h1>
+            <div className="flex flex-wrap gap-2">
+              {otherIcons.map((iconAbout, index) => (
+                <AboutIcon
+                  key={index}
+                  icon={iconAbout.icon}
+                  title={iconAbout.title}
+                  color={iconAbout.color}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="flex flex-wrap max-w-[700px] justify-center gap-2">
           {icons.map((iconAbout, index) => (
             <AboutIcon
               key={index}
@@ -157,15 +232,15 @@ const Skills = () => {
               color={iconAbout.color}
             />
           ))}
-        </div>
+        </div> */}
       </div>
 
-      <button
-        onClick={() => scrollTo("contact")}
+      {/* <button
+        onClick={() => scrollTo("work")}
         className="cursor-point absolute bottom-0 text-[60px] py-3 w-screen overflow-hidden flex justify-center text-white/90 animated-jump"
       >
         <MdExpandMore />
-      </button>
+      </button> */}
     </div>
   );
 };

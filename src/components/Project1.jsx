@@ -12,7 +12,7 @@ const Project1 = () => {
     <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[200px] hover:bg-zinc-600 duration-200 ease-in-out">
       <img
         src={eventscout}
-        className="select-none flex h-full object-cover w-full rounded-t-3xl"
+        className="flex h-full object-cover w-full rounded-t-3xl"
       />
       {/* <video
         src={disc}
@@ -26,31 +26,31 @@ const Project1 = () => {
           <h2 className="text-[23px] font-semibold">
             EventScout - Google Calendar Event Finder
           </h2>
-          <p className="mt-1 ">
+          <p className="mt-3">
             Built a serverless, progressive web application (PWA) using React
             and a test-driven development approach (TDD). Utilized the Google
             Calendar API to fetch upcoming events. Developed data visualization
             components using Recharts to for enhanced user experience.
           </p>
         </div>
-        <div className="flex gap-4 mb-1">
-          <div className="text-[30px] flex flex-col items-center">
+        <div className="flex flex-wrap gap-4 my-5">
+          <div className="text-[30px] w-[80px] flex flex-col flex-wrap items-center">
             <SiReact />
             <h6 className="text-[16px] text-center">React</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiJavascript />
             <h6 className="text-[16px] text-center">JavaScript</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiAwslambda />
             <h6 className="text-[16px] text-center">AWS Lambda</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiJest />
             <h6 className="text-[16px] text-center">Jest</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiPuppeteer />
             <h6 className="text-[16px] text-center">Puppeteer</h6>
           </div>

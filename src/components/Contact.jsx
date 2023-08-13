@@ -17,15 +17,17 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="relative snap-start bg-zinc-900 w-screen h-full flex items-start justify-center text-center select-none z-100 flex-row"
+      className="relative snap-start bg-zinc-800 w-screen h-full flex items-start justify-center text-center select-none z-100 flex-row mb-[250px]"
     >
-      <div className="flex w-full md:basis-2/5 flex-col text-white/90 ml-4 mt-20">
-        <div className="font-medium tracking-wide text-[4rem] xl:text-[7rem] lg:text-[6rem] md:text-[5rem] sm:text-[4rem]">
-          CONTACT
+      <div className="flex w-full md:basis-2/5 flex-col text-white/90">
+        <div className="mt-20 mb-10">
+          <div className="font-medium text-whit tracking-wide text-[3rem] xl:text-[4rem] lg:text-[5rem] md:text-[4rem] sm:text-[3rem] underline underline-offset-8 decoration-8 decoration-yellow-300">
+            CONTACT
+          </div>
         </div>
         <div>
           <button
-            className="email-btn  rounded-xl font-regular py-2 px-2 text-[1.2rem] xl:text-[3rem] lg:text-[2rem] md:text-[1.5rem] sm:text-[1.2rem]"
+            className="email-btn hover:text-zinc-900 rounded-xl font-regular py-2 px-2 text-[2rem] xl:text-[3rem] lg:text-[2rem] md:text-[1.5rem] sm:text-[2rem]"
             onClick={() => copyToClipBoard("mihajlo.zlt@gmail.com")}
           >
             mihajlo.zlt@gmail.com
@@ -34,20 +36,18 @@ const Contact = () => {
             {copySuccess ? copySuccess : "Click Email To Copy"}
           </div>
         </div>
-        <hr></hr>
         <a
           href="https://google.com"
-          className="w-full"
+          className="w-full px-12"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="mt-8 mb-10 flex w-full justify-center items-center px-6 py-3 rounded-full bg-white/90 text-black hover:text-white hover:bg-zinc-600 duration-200 ease-in-out">
+          <button className="mt-3 mb-3 flex w-full justify-center items-center px-6 py-3 rounded-full bg-yellow-400 text-black hover:text-white hover:bg-zinc-600 duration-200 ease-in-out">
             <HiDocumentText className="text-[30px]" />
             <div className="font-medium ml-2">Resume</div>
           </button>
         </a>
-        <hr></hr>
-        <div className="flex gap-2 mt-8">
+        <div className="flex gap-2 mt-3 flex-col md:flex-row px-12">
           <a
             href="https://www.linkedin.com/in/mihajlo-zlaticanin/"
             target="_blank"

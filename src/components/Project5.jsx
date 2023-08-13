@@ -7,7 +7,7 @@ const Project5 = () => {
     <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[200px] hover:bg-zinc-600 duration-200 ease-in-out">
       <img
         src={angular}
-        className="select-none flex h-full object-cover w-full rounded-t-3xl"
+        className="flex h-full object-cover w-full rounded-t-3xl"
       />
       {/* <video
         src={disc}
@@ -21,7 +21,7 @@ const Project5 = () => {
           <h2 className="text-[23px] font-semibold">
             Cinemate - Angular Client
           </h2>
-          <p className="mt-1 ">
+          <p className="mt-3">
             Created a movie database application using Angular for the
             client-side. Seamlessly integrated with a REST API. Leveraged
             Angular Material to design an elegant user interface, focusing on
@@ -31,20 +31,20 @@ const Project5 = () => {
             app.
           </p>
         </div>
-        <div className="flex gap-4 mb-1">
-          <div className="text-[30px] flex flex-col items-center">
+        <div className="flex flex-wrap gap-4 my-5">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiAngular />
             <h6 className="text-[16px] text-center">Angular</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiTypescript />
             <h6 className="text-[16px] text-center">TypeScript</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiMaterialdesign />
             <h6 className="text-[16px] text-center">Angular Material</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <TbApi />
             <h6 className="text-[16px] text-center">REST API</h6>
           </div>

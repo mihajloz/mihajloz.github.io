@@ -7,7 +7,7 @@ const Project6 = () => {
     <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[200px] hover:bg-zinc-600 duration-200 ease-in-out">
       <img
         src={pokedex}
-        className="select-none flex h-full object-cover w-full rounded-t-3xl"
+        className="flex h-full object-cover w-full rounded-t-3xl"
       />
       {/* <video
         src={disc}
@@ -19,7 +19,7 @@ const Project6 = () => {
       <div className="flex flex-col px-6 pb-6 pt-3 justify-between h-full">
         <div>
           <h2 className="text-[23px] font-semibold">Pokedex API</h2>
-          <p className="mt-1 ">
+          <p className="mt-3">
             Created an immersive Pokédex web application using JavaScript,
             Bootstrap, HTML, and CSS. This app allows users to explore the
             fascinating world of Pokémon by seamlessly integrating with the
@@ -28,7 +28,7 @@ const Project6 = () => {
             responsive UI.
           </p>
         </div>
-        <div className="flex gap-4 mb-1">
+        <div className="flex flex-wrap gap-4 my-5">
           <div className="text-[30px] flex flex-col items-center">
             <SiJavascript />
             <h6 className="text-[16px] text-center">JavaScript</h6>

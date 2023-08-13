@@ -7,7 +7,7 @@ const Project4 = () => {
     <div className="flex flex-col text-white/90 font-medium h-full rounded-3xl bg-zinc-700 min-w-[200px] hover:bg-zinc-600 duration-200 ease-in-out">
       <img
         src={angular}
-        className="select-none flex h-full object-cover w-full rounded-t-3xl"
+        className="flex h-full object-cover w-full rounded-t-3xl"
       />
       {/* <video
         src={disc}
@@ -19,7 +19,7 @@ const Project4 = () => {
       <div className="flex flex-col px-6 pb-6 pt-3 justify-between h-full">
         <div>
           <h2 className="text-[23px] font-semibold">Cinemate - React Client</h2>
-          <p className="mt-1 ">
+          <p className="mt-3">
             Developed a full-stack movie database app using React for the
             client-side. Seamlessly integrated with a REST API to provide users
             with a responsive and engaging movie exploration journey. Leveraged
@@ -27,20 +27,20 @@ const Project4 = () => {
             management.
           </p>
         </div>
-        <div className="flex gap-4 mb-1">
-          <div className="text-[30px] flex flex-col items-center">
+        <div className="flex flex-wrap gap-4 my-5">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiReact />
             <h6 className="text-[16px] text-center">React</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiRedux />
             <h6 className="text-[16px] text-center">Redux</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <SiJavascript />
             <h6 className="text-[16px] text-center">JavaScript</h6>
           </div>
-          <div className="text-[30px] flex flex-col items-center">
+          <div className="text-[30px] w-[80px] flex flex-col items-center">
             <TbApi />
             <h6 className="text-[16px] text-center">REST API</h6>
           </div>
