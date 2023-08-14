@@ -16,8 +16,12 @@ const About = () => {
             MIHAJLO,
           </div>
           <div className="xl:text-[1.5rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3 mb-10">
-            a fullstack developer based in Germany. On this website, you will
-            find a showcase of my software development projects.
+            a{" "}
+            <span className="underline underline-offset-[6px] decoration-4 decoration-yellow-400">
+              fullstack
+            </span>{" "}
+            developer based in Germany. On this website, you will find a
+            showcase of my software development projects.
           </div>
           <div className="flex flex-col items-start gap-8 ml-2 md:flex-row md:gap-5 w-full">
             <button>
