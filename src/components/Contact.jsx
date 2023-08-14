@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="relative snap-start bg-zinc-800 w-screen h-full flex items-start justify-center text-center select-none z-100 flex-row mb-[250px]"
+      className="relative snap-start bg-zinc-800 w-screen h-full flex items-start justify-center text-center z-100 flex-row mb-[250px]"
     >
       <div className="flex w-full md:basis-2/5 flex-col text-white/90">
         <div className="mt-20 mb-10">
