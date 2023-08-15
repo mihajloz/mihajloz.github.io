@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="bg-zinc-800 w-full h-screen flex flex-col xl:flex-row items-start sm:items-center justify-center"
     >
-      <div className="max-w-[1600px] flex justify-center flex-col md:flex-row pl-0 gap-20">
+      <div className="max-w-[1600px] flex justify-center flex-col md:flex-row pl-0 gap-20 mt-20 sm:mt-0">
         <div className="flex flex-col text-white/90 ml-4 max-w-[50vw] md:basis-2/5 mt-20 xl:mt-0">
           <div className="xl:text-[1.5rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3">
             Hi, I&apos;m
@@ -43,7 +43,7 @@ const About = () => {
       </div>
       <button
         onClick={() => scrollTo("skills")}
-        className="cursor-point absolute bottom-0 text-[60px] py-3 w-screen overflow-hidden flex justify-center text-white/80 animated-jump"
+        className="hidden sm:flex cursor-point absolute bottom-0 text-[60px] py-3 w-screen overflow-hidden justify-center text-white/80 animated-jump"
       >
         <MdExpandMore />
       </button>
