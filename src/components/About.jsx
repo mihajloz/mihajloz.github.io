@@ -21,11 +21,13 @@ const About = () => {
             <span className="underline underline-offset-[6px] decoration-4 decoration-yellow-400">
               fullstack
             </span>{" "}
-            developer based in Germany. On this website, you will find a
-            showcase of my software development projects.
+            developer based in Germany, skilled in front-end (React, Angular,
+            JavaScript, TypeScript) and back-end (Node.js, Express, MySQL,
+            MongoDB) technologies. On this website, you will find a showcase of
+            my software development projects.
           </div>
           <div className="flex flex-col items-start gap-8 ml-2 md:flex-row md:gap-5 w-full">
-            <button>
+            <button onClick={() => scrollTo("contact")}>
               <span className="px-7 py-3 rounded-full bg-yellow-400 text-black hover:text-white hover:bg-zinc-500 duration-200 ease-in-out">
                 Download my CV
               </span>
