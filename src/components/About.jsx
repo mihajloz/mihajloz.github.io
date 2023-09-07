@@ -10,13 +10,13 @@ const About = () => {
     >
       <div className="max-w-[1600px] flex justify-center flex-col md:flex-row pl-0 gap-20 mt-[120px] sm:mt-0">
         <div className="flex flex-col text-white/90 ml-4 max-w-[50vw] md:basis-2/5 mt-20 xl:mt-0">
-          <div className="xl:text-[1.5rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3">
+          <div className="xl:text-[1.2rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3">
             Hi, I&apos;m
           </div>
-          <div className="text-white/90 ml-2 ease-in-out duration-200 font-medium tracking-wide text-[75px] xl:text-[7rem] lg:text-[6rem] md:text-[5rem] sm:text-[5rem]">
+          <div className="text-white/90 ml-2 ease-in-out duration-200 font-medium tracking-wide text-[75px] xl:text-[100px] lg:text-[6rem] md:text-[5rem] sm:text-[5rem]">
             MIHAJLO,
           </div>
-          <div className="xl:text-[1.5rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3 mb-10">
+          <div className="xl:text-[1.2rem] lg:text-[20px] md:text-[18px] sm:text-[16px] ml-3 mb-10 max-w-[500px]">
             a{" "}
             <span className="underline underline-offset-[6px] decoration-4 decoration-yellow-400">
               fullstack
