@@ -74,6 +74,15 @@ const Project1 = () => {
               Github
             </button>
           </a>
+          <a
+            href="https://mihajloz.github.io/case-study/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-6 py-2 rounded-full bg-white/90 text-black hover:text-white hover:bg-zinc-500 duration-200 ease-in-out">
+              Case Study
+            </button>
+          </a>
         </div>
       </div>
     </div>
