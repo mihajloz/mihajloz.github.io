@@ -4,6 +4,8 @@ import Project3 from "./Project3";
 import Project4 from "./Project4";
 import Project5 from "./Project5";
 import Project6 from "./Project6";
+import Project7 from "./Project7";
+import Project8 from "./Project8";
 
 const Work = () => {
   return (
@@ -18,12 +20,14 @@ const Work = () => {
       </div>
 
       <div className="max-w-[1600px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-5 gap-5 h-full min-w-[350px] px-4 lg:px-20">
+        <Project8 />
         <Project1 />
         <Project2 />
         <Project3 />
         <Project4 />
         <Project5 />
         <Project6 />
+        <Project7 />
       </div>
 
       {/* <button

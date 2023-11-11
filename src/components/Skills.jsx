@@ -18,6 +18,7 @@ import {
   SiHtml5,
   SiCss3,
   SiSass,
+  SiNextdotjs,
 } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 import { HiDocumentText } from "react-icons/hi";
@@ -45,6 +46,11 @@ const frontendIcons = [
     icon: <SiRedux />,
     title: "Redux",
     color: "#764abc",
+  },
+  {
+    icon: <SiNextdotjs />,
+    title: "NextJS",
+    color: "#ffffff",
   },
   {
     icon: <SiAngular />,
